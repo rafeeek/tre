@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <style>
+
+.fff
+{
+    height: 500px;
+
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.show
+{
+    margin-top: 150px;
+    width: 380px;
+    position: relative;
+    top: 150px;
+    animation-name: reko;
+    animation-duration: 9s;
+    animation-iteration-count: infinite ;
+    overflow: hidden;
+    margin: auto;
+    background-color: teal; 
+}
+@keyframes reko
+{
+    0%{width: 120px}
+   5%{width: 380px}
+   28%{width: 380px}
+   33%{width: 120px}
+   38%{width: 345px}
+   61%{width: 345px}
+   66%{width: 120px}
+   74%{width: 290px}
+   94%{width: 290px}
+   100%{width: 120px}
+}
+h3::before
+{
+    content: "";
+    width: 4px;
+    height: 70px;
+    background-color: cadetblue;
+    position: absolute;
+    right: 0;
+}
+h3
+{
+    font-size: 60px; 
+    position: relative; 
+}
+h3::after
+{
+    content: "";
+    overflow: hidden;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 120;
+    animation-name: refoo;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+@keyframes refoo
+{
+   0%{content: "";}
+   5%{content: "Developer";}
+   28%{content: "Developer";}
+   33%{content: "Developer";}
+   38%{content: "Designer";}
+   61%{content: "Designer";}
+   66%{content: "Designer";}
+   71%{content: "Rafeek";}
+   94%{content: "Rafeek";}
+   100%{content: "Rafeek";}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        
+
+    <div class="show">
+        <h3>i am </h3>
+    </div>
+
+    </body>
+
+
+</html>
